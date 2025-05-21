@@ -1,6 +1,8 @@
 # Recuurent Neural Networks: Transliteration with and without Attention Mechanism
 This project aims to work with different kinds of RNNs that acieve the task of transliterating English (Latin) script into our native script. I've chosen this to be Hindi.
 
+!![Attention Visualization](Visualization/attention_viz.gif)
+
 ## Table of Contents
 
 ## Table of Contents
@@ -18,7 +20,7 @@ This project aims to work with different kinds of RNNs that acieve the task of t
 1) The repository contains 4 notebooks that involve training and testing of models.
 2) Notebooks `Train_without_att.ipynb` and `Train_with_att.ipynb` deal with running the hyperparameter sweeps to select the best hyperparameter set.
 3) Notebooks `Test_without_att.ipynb` and `Test_with_att.ipynb` deal with testing the model on the test dataset using the best hyperparameter set.
-4) The 5th notebook `visualize.ipynb` is used to build the input-output character connectivity visualization that was given in Question 6. The corresponding html file obtained is also given in the repository.
+4) The 5th notebook `Visualize.ipynb` is used to build the input-output character connectivity visualization that was given in Question 6. The corresponding html file obtained is also given in the repository.
 5) The predictions obtained from both the approaches (with and without attention) have been given in the `predictions_vanilla` and `predictions_attention` folder as `prediction_basic.csv` and `predictions_attention.csv` respectively.
 6) The best models from both the approaches 'Model_Basic.pth` and `Attention_model.pth` have also been provided in the `Models` folder.
 7) The visualization file `attention_viz.html` is provided in the `Visualization` folder. Download it to view the connectivity visualization. Also given is a gif which shows the working.
@@ -94,6 +96,7 @@ Beam size 5 → Test Accuracy: 22.86%
 
 ## Visualization
 
+The visualization is given at the top of this Readme file.
 The connectivity visualization as given in the question works as follows:
 
 1) Once the mouse cursor hovers over a character, the corresponding input characters contributing to the prediction of that output character are highlighted.
@@ -101,3 +104,4 @@ The connectivity visualization as given in the question works as follows:
 2) The shade of the highlighted colour (yellow here) depends on the degree of attention given to that input character for the prediction. Darker the shade, higher the attention.
 
 3) This character to character attention weight is given in the `attention.json` file.
+
