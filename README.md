@@ -1,9 +1,13 @@
-# Recuurent Neural Networks: Transliteration with and without Attention Mechanism
-This project aims to work with different kinds of RNNs that acieve the task of transliterating English (Latin) script into our native script. I've chosen this to be Hindi.
+# Recurrent Neural Networks: Transliteration with and without Attention Mechanism
+This project aims to work with different kinds of RNNs that acieve the task of transliterating English (Latin) script into our native script. I've chosen this to be Hindi. 
+
+Github Repository: [Github Repo](https://github.com/vinyk/DA6401_Assignment3/)
+
+Wandb Report: [Wandb Report](https://wandb.ai/vinyk-sd-indian-institute-of-technology-madras/Assignment3_Attempt1/reports/Assignment-3--VmlldzoxMjg1NzgzOA?accessToken=9w463g921q43rp92qaa5yb3ogrspa4r1cm1j7ycmxu2ymuhon58s53t6pb29fd77)
+
+Code Organization:  vinyk-sd-indian-institute-of-technology-madras-org
 
 !![Attention Visualization](Visualization/attention_viz.gif)
-
-## Table of Contents
 
 ## Table of Contents
 
